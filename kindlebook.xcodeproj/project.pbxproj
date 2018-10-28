@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		C552EEF72181590C00431070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EEF62181590C00431070 /* AppDelegate.swift */; };
 		C552EEF92181590C00431070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EEF82181590C00431070 /* ViewController.swift */; };
-		C552EEFC2181590C00431070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C552EEFA2181590C00431070 /* Main.storyboard */; };
 		C552EEFE2181590F00431070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C552EEFD2181590F00431070 /* Assets.xcassets */; };
 		C552EF012181590F00431070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C552EEFF2181590F00431070 /* LaunchScreen.storyboard */; };
+		C552EF092181E0BB00431070 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EF082181E0BB00431070 /* models.swift */; };
+		C552EF0B2181F56C00431070 /* bookcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EF0A2181F56C00431070 /* bookcell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C552EEF32181590C00431070 /* kindlebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kindlebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C552EEF62181590C00431070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C552EEF82181590C00431070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C552EEFB2181590C00431070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C552EEFD2181590F00431070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C552EF002181590F00431070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C552EF022181590F00431070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C552EF082181E0BB00431070 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		C552EF0A2181F56C00431070 /* bookcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookcell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,11 @@
 			children = (
 				C552EEF62181590C00431070 /* AppDelegate.swift */,
 				C552EEF82181590C00431070 /* ViewController.swift */,
-				C552EEFA2181590C00431070 /* Main.storyboard */,
+				C552EF082181E0BB00431070 /* models.swift */,
 				C552EEFD2181590F00431070 /* Assets.xcassets */,
 				C552EEFF2181590F00431070 /* LaunchScreen.storyboard */,
 				C552EF022181590F00431070 /* Info.plist */,
+				C552EF0A2181F56C00431070 /* bookcell.swift */,
 			);
 			path = kindlebook;
 			sourceTree = "<group>";
@@ -124,7 +127,6 @@
 			files = (
 				C552EF012181590F00431070 /* LaunchScreen.storyboard in Resources */,
 				C552EEFE2181590F00431070 /* Assets.xcassets in Resources */,
-				C552EEFC2181590C00431070 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C552EF0B2181F56C00431070 /* bookcell.swift in Sources */,
 				C552EEF92181590C00431070 /* ViewController.swift in Sources */,
+				C552EF092181E0BB00431070 /* models.swift in Sources */,
 				C552EEF72181590C00431070 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +147,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C552EEFA2181590C00431070 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C552EEFB2181590C00431070 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C552EEFF2181590F00431070 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
