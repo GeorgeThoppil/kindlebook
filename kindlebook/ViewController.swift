@@ -22,6 +22,13 @@ class ViewController: UITableViewController {
         setup()
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let layout = UICollectionViewLayout()
+        let bookPageController = BookPageController(collectionViewLayout: layout)
+        let navController = UINavigationController(rootViewController: bookPageController)
+        present(navController, animated: true, completion: nil)
+    }
+    
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
     }
@@ -38,10 +45,6 @@ class ViewController: UITableViewController {
         
         let book = books?[indexPath.row]
         cell.book = book
-        //        cell.coverageImageView.image = book?.image
-//        cell.titleLabel.text = book?.title
-//        cell.authorLabel.text = book?.title
-
         
         return cell
     }
