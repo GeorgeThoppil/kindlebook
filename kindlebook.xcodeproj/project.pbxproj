@@ -14,6 +14,7 @@
 		C552EF092181E0BB00431070 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EF082181E0BB00431070 /* models.swift */; };
 		C552EF0B2181F56C00431070 /* bookcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EF0A2181F56C00431070 /* bookcell.swift */; };
 		C552EF5C218877E700431070 /* BookPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EF5B218877E700431070 /* BookPageController.swift */; };
+		C552EF5E218A0B3B00431070 /* pageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C552EF5D218A0B3B00431070 /* pageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C552EF082181E0BB00431070 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 		C552EF0A2181F56C00431070 /* bookcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookcell.swift; sourceTree = "<group>"; };
 		C552EF5B218877E700431070 /* BookPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPageController.swift; sourceTree = "<group>"; };
+		C552EF5D218A0B3B00431070 /* pageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				C552EEF62181590C00431070 /* AppDelegate.swift */,
 				C552EEF82181590C00431070 /* ViewController.swift */,
 				C552EF5B218877E700431070 /* BookPageController.swift */,
+				C552EF5D218A0B3B00431070 /* pageCell.swift */,
 				C552EF082181E0BB00431070 /* models.swift */,
 				C552EEFD2181590F00431070 /* Assets.xcassets */,
 				C552EEFF2181590F00431070 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				C552EEF92181590C00431070 /* ViewController.swift in Sources */,
 				C552EF092181E0BB00431070 /* models.swift in Sources */,
 				C552EF5C218877E700431070 /* BookPageController.swift in Sources */,
+				C552EF5E218A0B3B00431070 /* pageCell.swift in Sources */,
 				C552EEF72181590C00431070 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
